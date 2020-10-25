@@ -1,0 +1,28 @@
+repo:
+  path: C:\Dev\workspace\design_patterns
+
+default:
+  environment: live
+
+environment:
+  dev:
+    branch: develop
+    tag:
+      prefix: "1."
+      max_major: 1
+      max_minor: 99
+      max_micro: 999
+  test:
+    branch: test
+    tag:
+      prefix: "2."
+      max_major: 2
+      max_minor: 99
+      max_micro: 999
+  live:
+    branch: master
+    tag:
+      prefix: "3."
+      max_major: 3
+      max_minor: 99
+      max_micro: 999
